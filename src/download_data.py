@@ -21,7 +21,7 @@ def save_data(data, file_path):
 
 
 if __name__ == "__main__":
-    tickers = ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN"]
+    tickers = ["AAPL", "MSFT", "NVDA", "TSLA", "AMZN", "^GSPC"]
     start_date = "2020-01-01"
     end_date = "2026-01-01"
     save_path = "data/raw/stock_prices.csv"
