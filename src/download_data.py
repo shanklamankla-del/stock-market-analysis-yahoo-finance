@@ -4,7 +4,13 @@ from pathlib import Path
 
 def download_stock_data(tickers, start_date, end_date):
     # Downloads stock price data from Yahoo Finance.
-    data = yf.download(tickers, start=start_date, end=end_date)
+    data = yf.download(
+    tickers,
+    start=start_date,
+    end=end_date,
+    threads=False,
+    progress=True
+    )
     return data
 
 
