@@ -234,6 +234,12 @@ NVDA showed the strongest total return during the period analyzed, but it also h
 * Compare semiconductor stocks against broader technology sector ETFs
 * Deploy or publish the dashboard if possible
 
+## Report
+
+A full written analysis of the findings is available here:
+
+[Stock Analysis Report](reports/stock_analysis_report.md)
+
 ## Disclaimer
 
 This project is for educational and portfolio purposes only. It is not financial advice. The analysis is based on historical data and does not predict future stock performance.
